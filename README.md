@@ -4,6 +4,16 @@ An end-to-end e-commerce analytics project built with Python, SQL, Streamlit, an
 
 The project focuses on marketplace performance, customer behavior, product trends, logistics, sellers, and payment patterns through a structured data-cleaning workflow, SQL analysis, and an interactive dashboard.
 
+## Dashboard Preview
+
+![Dashboard Preview](images/dashboard_overview.png)
+
+The dashboard supports interactive filtering by order date and customer state.
+
+## Live Demo
+
+👉 [Open the Streamlit Dashboard](https://us-ecommerce-customer-analytics-cfdztfrehqiy4wkyjdgba8.streamlit.app/)
+
 ## Project Overview
 
 This project analyzes an e-commerce marketplace from multiple business perspectives:
@@ -170,6 +180,7 @@ Potential extensions include:
 - Geographic visualizations
 - Additional drill-down filters
 - Cloud deployment of the Streamlit dashboard
+
 
 ## Author
 
