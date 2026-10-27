@@ -22,7 +22,7 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data" / "processed"
-RAW_DATA_DIR = BASE_DIR / "data" / "raw"
+
 
 
 # ------------------------------------------------------------
@@ -49,7 +49,7 @@ def load_data():
     )
 
     category_translation = pd.read_csv(
-    RAW_DATA_DIR / "product_category_name_translation.csv"
+        DATA_DIR / "category_translation_clean.csv"
     )
 
     sellers = pd.read_csv(
@@ -57,7 +57,7 @@ def load_data():
     )
 
     payments = pd.read_csv(
-    RAW_DATA_DIR / "olist_order_payments_dataset.csv"
+        DATA_DIR / "payments_clean.csv"
     )
 
 
